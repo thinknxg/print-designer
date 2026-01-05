@@ -176,7 +176,7 @@ frappe.ui.form.PrintView = class PrintView extends frappe.ui.form.PrintView {
 	show(frm) {
 		super.show(frm);
 		this.inner_msg = this.page.add_inner_message(`
-				<a style="line-height: 2.4" href="/app/print-designer?doctype=${this.frm.doctype}">
+				<a style="line-height: 2.4" href="https://thinknxg.cloud/app/print-designer?doctype=${this.frm.doctype}">
 					${__("Try the new Print Designer")}
 				</a>
 			`);
